@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER "Bobby Wilson"
+MAINTAINER "John Doe"
 RUN apt-get update
 RUN apt-get install curl -y
 RUN cd /usr/local; curl -O http://nodejs.org/dist/v0.10.16/node-v0.10.16-lin
